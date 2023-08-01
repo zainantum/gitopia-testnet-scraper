@@ -118,37 +118,3 @@ mulai()
 file_object.close()
 
 
-
-
-
-
-
-
-
-
-
-
-#Proxy Connection
-
-# print(colored('Getting Proxies from graber...','green'))
-# time.sleep(2)
-# proxy = {"http": "http://"+ column[0]+":"+column[1]}
-# print(proxy)
-# url = 'https://mobile.facebook.com/login'
-# r = requests.get(url,  proxies=proxy)
-# print("")
-# print(colored('Connecting using proxy' ,'green'))
-# print("")
-# sts = r.status_code
-# print(sts)
-# proxy = column[0]+":"+column[1]
-# ip = column[0]
-# options = webdriver.ChromeOptions()
-# #options.add_argument('headless')
-# # options.add_argument(f'--proxy-server=socks5://{proxy}')
-# # options.AddArgument($"--proxy-server=socks5://{proxy}");
-# options.add_argument(f'--proxy-server=socks5://{ip}')
-# browser = webdriver.Chrome(executable_path=ChromeDriverManager().install(), crhome_options=options)
-# browser.get("https://ipsaya.com")
-# #element = browser.find_element(By.XPATH, "/html/body/div[1]/div[1]/div[3]/div[3]/div[1]/button[2]")
-# #print(element)
